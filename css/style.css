@@ -1,0 +1,672 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    background-image: linear-gradient(to right, #f5ebe2 , #d6d5f4);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.hero .base-01{
+    width: 400px;
+    height: 800px;
+    background-image: linear-gradient(to right, #4265A8 , #134697);
+    margin-right: 70px;
+    border-radius: 35px;
+}
+
+
+.hero .base-02{
+    width: 400px;
+    height: 800px;
+    background-image: linear-gradient(to right, #4265A8 , #134697);
+    border-radius: 35px;
+}
+
+.hero .base-01 .panel-01{
+    width: 100%;
+    height: 260px;
+    background-image: linear-gradient(to right, #4265A8 , #134697);
+    border-top-left-radius: 32px;
+    border-top-right-radius:32px ;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    background: #F3F4F8;
+    align-items: center;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.hero .base-02 .panel-01 .iconos,
+.hero .base-01 .panel-01 .iconos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 18px;
+    margin-top:20px ;
+    color: #FBFDFF;
+}
+.hero .base-02 .panel-01 .iconos .hora,
+.hero .base-01 .panel-01 .iconos .hora{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.hero .base-02 .panel-01 .iconos .hora span,
+.hero .base-01 .panel-01 .iconos .hora span{
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.hero .base-02 .panel-01 .iconos .iconos-telefono,
+.hero .base-01 .panel-01 .iconos .iconos-telefono{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    width: 175px;
+    height: 18px;
+    align-items: center;
+}
+
+.hero .base-02 .panel-01 .iconos .iconos-telefono i,
+.hero .base-01 .panel-01 .iconos .iconos-telefono i{
+    margin-left: 8px;
+}
+
+.hero .base-01 .panel-01 .balance-valido{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.hero .base-01 .panel-01 .balance-valido .cantidad{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.hero .base-01 .panel-01 .balance-valido .cantidad .valor{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #FBFDFF;
+    margin-left: 25px;
+    font-size: 39px;
+}
+
+.hero .base-01 .panel-01 .balance-valido .cantidad .titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #A5C0EF;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+.hero .base-01 .panel-01 .balance-valido .usuario{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    
+}
+.hero .base-01 .panel-01 .balance-valido .usuario img{
+    width: 45px;
+    height: 45px;
+    border-radius:18px ;
+    border:2px solid #F7F8FB;
+    margin-top: 13px;
+    margin-right: -25px;
+    cursor: pointer;
+}
+.hero .base-01 .panel-01 .balance-valido .usuario i{
+    color: #C7C8D7;
+    margin-top: 25px ;
+    margin-right:10px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.hero .base-01 .panel-01 .items{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero .base-01 .panel-01 .items .item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.hero .base-01 .panel-01 .items .item .icono{
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.hero .base-01 .panel-01 .items .item .icono i{
+    font-size: 23px;
+    color: #174791;
+}
+
+
+.hero .base-01 .panel-01 .items .item .titulo{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .base-01 .panel-01 .items .item .titulo span{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #A5C0EF;
+    font-size: 15.5px;
+
+}
+
+.hero .base-01 .panel-02 .titulos{
+    width: 100%;
+    height: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .base-01 .panel-02 .titulos .recent{
+    color: #174791;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:22px ;
+    margin-left:25px;
+}
+
+.hero .base-01 .panel-02 .titulos .see{
+    color: #134697;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .items{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .items .all{
+    width: 60px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px ;
+    color: #134697;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+.hero .base-01 .panel-02 .contenedor-panel-02 .items  .income i{
+    color:#6ac005;
+    margin-right:7px;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .items .income{
+    width: 105px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px ;
+    color: #134697;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .items .expense{
+    width: 105px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px ;
+    color: #134697;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .items .expense i{
+    color:orangered;
+    margin-right:7px;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .titulo{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.hero .base-01 .panel-02 .contenedor-panel-02 .titulo span{
+    color: #BAC0CA ;
+    font-size: 17px;
+    margin-left: 25px;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01{
+    margin-top: 10px;
+    width: 90%;
+    height: 77px;
+    background: #FFFFFF;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .icono,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .icono{
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .icono .fondo,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .icono .fondo{
+    height: 50px;
+    width: 50px;
+    background: #F4F5F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .icono .fondo i,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .icono .fondo i{
+    color: #174791;
+    font-size: 23px;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .cuenta,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .cuenta{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .cuenta span,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .cuenta span{
+    margin-left: 20px;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .cuenta .grocery,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .cuenta .grocery{
+    color: #174791;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .cuenta .eat,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .cuenta .eat{
+    color:gray ;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .valor .saldo,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .valor .saldo{
+    color: #174791;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .valor .saldo-02,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .valor .saldo-02{
+    color: #6ac005;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .valor .fecha,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .valor .fecha{
+    color:gray;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02 .valor,
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-01 .valor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+
+.hero .base-01 .panel-02 .contenedor-panel-02 .today-02{
+    margin-top: 3px;
+    width: 90%;
+    height: 77px;
+    background: #ffffff;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    flex-direction: row;
+
+}
+.hero .base-02 .panel-02 footer,
+.hero .base-01 .panel-02 .contenedor-panel-02 footer{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.hero .base-02 .panel-02 footer .item,
+.hero .base-01 .panel-02 .contenedor-panel-02 footer .item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .base-02 .panel-02  footer .item i,
+.hero .base-01 .panel-02 .contenedor-panel-02 footer .item i{
+    font-size: 23px;
+    color: #174791;
+    cursor: pointer;
+}
+
+.hero .base-02 .panel-02  footer .item .titulo-icono,
+.hero .base-01 .panel-02 .contenedor-panel-02 footer .item .titulo-icono{
+    color: #174791;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+/*-------------------PROTOTIPO 2-----------------------*/
+
+.hero .base-02 .panel-02{
+    width: 100%;
+    height: 754px;
+    background: #F3F4F8;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .base-02 .panel-02 .cabecera{
+    margin-top: 25px;
+    width: 85%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .base-02 .panel-02 .cabecera .titulos{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .base-02 .panel-02 .cabecera .titulos .cards{
+    color: #174791;
+    font-size: 31px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.hero .base-02 .panel-02 .cabecera .titulos .phy{
+    margin-top: 5px;
+    color: #174791;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero .base-02 .panel-02 .cabecera .puntos{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.hero .base-02 .panel-02 .cabecera .puntos .punto{
+    width: 8px;
+    height: 8px;
+    background: #174791;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+.hero .base-02 .panel-02 .panel-tarjetas{
+    width: 85%;
+    height: 60px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.hero .base-02 .panel-02 .panel-tarjetas .tarjeta-01{
+    width: 100px;
+    height: 50%;
+    display: flex;
+    background: #fff;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    color: #174791;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    border:1.3px solid gray;
+}
+
+.hero .base-02 .panel-02 .panel-tarjetas .tarjeta-02{
+    width: 100px;
+    display: flex;
+    height: 50%;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    color: #174791;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    border:1.3px solid gray;
+}
+
+.hero .base-02 .panel-02 .card-blue{
+    width: 85%;
+    height: 227.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .base-02 .panel-02 .card-blue img{
+    width: 100%;
+    height: 205px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero .base-02 .panel-02 .puntos-slash{
+    width: 85%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero .base-02 .panel-02 .puntos-slash .punto{
+    width: 8px;
+    height: 8px;
+    background: #174791;
+    border-radius: 20px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+
+.hero .base-02 .panel-02 .settings{
+    width: 85%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.hero .base-02 .panel-02 .settings span{
+    color: #174791;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+}
+
+.hero .base-02 .panel-02 .items-settings{
+    width: 85%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .base-02 .panel-02 .items-settings .item{
+    margin-top: 12px;
+    background: #fff;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.hero .base-02 .panel-02 .items-settings .item i{
+    color: #174791;
+    font-size: 24px;
+}
+
+.hero .base-02 .panel-02 .items-settings .item span{
+    color: #174791;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.hero .base-02 .panel-02 .items-settings .boton{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6ac005;
+}
+
+
+.hero .base-02 .panel-02 .items-settings .boton:nth-child(2){
+    margin-left: 50px;
+}
+
+.hero .base-02 .panel-02 .items-settings .boton .boton-central{
+    background-color: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+}
+
+
+
+
