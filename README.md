@@ -1,1 +1,1 @@
-![](quick_dev.JPEG)
+![](quick_dev.jpeg)
